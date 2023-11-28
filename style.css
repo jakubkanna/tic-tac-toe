@@ -1,0 +1,206 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+/********/
+
+body,
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: #4a4e57;
+  padding: 0;
+  margin: 0;
+  height: 100%;
+  line-height: 1.2;
+}
+h1,
+h2,
+h3,
+h4 {
+  color: white;
+}
+h1 {
+  font-size: 24px;
+}
+p,
+span {
+  color: #8f8f8f;
+}
+body {
+  display: grid;
+  grid-template-rows: auto 1fr;
+}
+header {
+  background-color: #23272c;
+  padding: 1rem;
+}
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  border: 1px solid black;
+  margin: 2rem;
+  flex-grow: 1;
+}
+.square {
+  border: 1px solid black;
+  background-color: #8f8f8f;
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  flex-wrap: wrap;
+  font-size: 5rem;
+}
+.square:hover {
+  cursor: pointer;
+  background-color: #646464;
+}
+main {
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+}
+
+footer {
+  text-align: end;
+  padding: 6px;
+  font-size: 8px;
+}
+
+button {
+  background-color: #23272c;
+  color: white;
+  border: 1px solid #0d0e10;
+  border-radius: 1rem;
+  max-width: fit-content;
+}
+
+button:hover {
+  background-color: black;
+  cursor: pointer;
+}
